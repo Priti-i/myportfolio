@@ -199,9 +199,6 @@ progress{
     width: 90%;
     height: 20px;
 }
-
-
-
 @media screen and (max-width: 600px) {
     .Navbar a {
       float: none;
@@ -211,6 +208,31 @@ progress{
   }
 
  @media only screen and (max-width:600px)  {
+
+    .home {
+        display: block;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; /* If it's inline content like text */
+    }
+    .home-content2{
+        padding: 20px;
+    }
+    
+.about{
+    display: block;
+   }
+   .about-img{
+    text-align: center;
+   }
+   .about-img img{
+        display: inline-block;
+        width: 90%;
+        height: 700px;
+
+   }
+
     .home{
         display: block;
        height: max-content;
@@ -219,6 +241,7 @@ progress{
 .about{
     display: block;
    }
+
   .msg{
     display: block;
    
